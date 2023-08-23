@@ -52,7 +52,7 @@ const Login = () => {
             // console.log("user login succesfully done");
 
 
-            const data = await fetch("https://backend1-8bj5.onrender.com/login",{
+            const data = await fetch("https://url-shortener-laf1.onrender.com/login",{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json"
